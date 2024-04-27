@@ -1,5 +1,5 @@
-var DELIM_SIZE = 4;
-const merge = Object.assign({}, obj1, obj2);
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const channel = getChannel(computedAppVersion);
+const fullName = name || 'buddy';
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const updated = numbers.filter(element => element > 6);
