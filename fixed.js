@@ -1,5 +1,3 @@
-const fullName = name || 'buddy';
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const updated = numbers.filter(element => element > 6);
+const isEven = (num) => num % 2 === 0;
+const flattenedArray = arr => [].concat(...arr);
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
