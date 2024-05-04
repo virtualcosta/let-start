@@ -1,1 +1,2 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+var arr1 = "john".split('');
