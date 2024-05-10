@@ -1,2 +1,2 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-var arr1 = "john".split('');
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+var c = new Counter(); c.add(); c.add(); c.add();
