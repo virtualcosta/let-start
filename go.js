@@ -1,2 +1,2 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const merge = (a, b) => a.concat(b);
+console.log( "A" - "B" + 2);
