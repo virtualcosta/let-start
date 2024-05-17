@@ -1,3 +1,3 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+console.log( "A" - "B" + "2");
