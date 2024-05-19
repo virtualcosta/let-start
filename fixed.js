@@ -1,3 +1,3 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-console.log( "A" - "B" + "2");
+const randomString = () => Math.random().toString(36).slice(2);
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const toggleBool = () => (bool = !bool);
