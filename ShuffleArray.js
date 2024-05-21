@@ -1,2 +1,2 @@
-const stringReverse = str => str.split("").reverse().join("");
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const timeFromDate = date => date.toTimeString().slice(0, 8);
