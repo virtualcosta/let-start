@@ -1,3 +1,2 @@
-const maxNumber = arr => Math.max(...arr);
-var arr1 = "john".split('');
-const results = await Promise.all(resultingPromises);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
