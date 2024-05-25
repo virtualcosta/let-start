@@ -1,1 +1,2 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const isEmptyObject = obj => Object.keys(obj).length === 0;
