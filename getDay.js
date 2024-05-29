@@ -1,2 +1,2 @@
-console.log(false == '0');
-console.log(1 +  +"2" + "2");
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
