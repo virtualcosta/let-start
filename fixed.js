@@ -1,2 +1,2 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
