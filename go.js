@@ -1,2 +1,2 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+var arr2 = arr1.reverse();
+console.log("0 || 1 = "+(0 || 1));
