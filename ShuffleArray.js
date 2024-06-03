@@ -1,3 +1,1 @@
-const merge = (a, b) => a.concat(b);
-const goToTop = () => window.scrollTo(0, 0);
-const toggleBool = () => (bool = !bool);
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
