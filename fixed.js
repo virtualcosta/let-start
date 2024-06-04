@@ -1,2 +1,1 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
