@@ -1,3 +1,2 @@
-const merge = [...new Set([...a, ...b])];
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const arrayContains = (arr, element) => arr.includes(element);
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
