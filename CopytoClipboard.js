@@ -1,2 +1,2 @@
-const isArray = (arr) => Array.isArray(arr);
-var arr3 = "jones".split('');
+[foo, bar] = [bar, foo];
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
