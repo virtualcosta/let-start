@@ -1,2 +1,2 @@
-const merge = (a, b) => [...a, ...b];
-const executableName = getExecutableName(channel, appName);
+const flattenedArray = arr => [].concat(...arr);
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
