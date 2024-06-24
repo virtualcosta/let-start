@@ -1,3 +1,3 @@
-const isEven = (num) => num % 2 === 0;
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const result = await makeHttpRequest(url);
+const allResults = await Promise.all(items.map(async (item) => {}));
