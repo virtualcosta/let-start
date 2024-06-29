@@ -1,2 +1,3 @@
-const flattenedArray = arr => [].concat(...arr);
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const uniqueArr = (arr) => [...new Set(arr)];
+const repositoryRootPath = path.resolve(__dirname, '..');
+const isEmptyObject = obj => Object.keys(obj).length === 0;
