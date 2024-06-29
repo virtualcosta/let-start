@@ -1,1 +1,1 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const isTabInView = () => !document.hidden;
