@@ -1,2 +1,1 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-[foo, bar] = [bar, foo];
+console.log( "A" - "B" + 2);
