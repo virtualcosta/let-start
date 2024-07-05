@@ -1,3 +1,1 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-const repositoryRootPath = path.resolve(__dirname, '..');
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
