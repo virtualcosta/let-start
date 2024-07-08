@@ -1,2 +1,3 @@
-[foo, bar] = [bar, foo];
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const repositoryRootPath = path.resolve(__dirname, '..');
