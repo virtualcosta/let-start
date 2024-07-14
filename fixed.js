@@ -1,3 +1,2 @@
-console.log(false === '0');
-const flattenedArray = arr => [].concat(...arr);
-const reversedString = str => str.split('').reverse().join('');
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const resultingPromises = urls.map((url) => makHttpRequest(url));
