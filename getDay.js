@@ -1,2 +1,2 @@
-const reversedString = str => str.split('').reverse().join('');
-const isEmptyArray = arr => !arr.length;
+var arr1 = "john".split('');
+console.log( "A" - "B" + "2");
