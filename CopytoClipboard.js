@@ -1,3 +1,3 @@
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const repositoryRootPath = path.resolve(__dirname, '..');
+const allResults = await Promise.all(items.map(async (item) => {}));
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const getRandomBoolean = () => Math.random() >= 0.5;
