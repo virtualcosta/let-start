@@ -1,3 +1,3 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const getRandomBoolean = () => Math.random() >= 0.5;
+console.log( "A" - "B" + "2");
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+console.log(false == '0');
