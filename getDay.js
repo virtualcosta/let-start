@@ -1,2 +1,2 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const flattenedArray = arr => [].concat(...arr);
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
