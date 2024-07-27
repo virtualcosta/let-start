@@ -1,2 +1,2 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const arrayContains = (arr, element) => arr.includes(element);
+console.log(1 +  +"2" + "2");
+const isEven = (num) => num % 2 === 0;
