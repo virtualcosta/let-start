@@ -1,2 +1,3 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+console.log(false == '0');
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
