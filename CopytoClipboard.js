@@ -1,2 +1,3 @@
-console.log("0 || 1 = "+(0 || 1));
-const isEven = (num) => num % 2 === 0;
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
