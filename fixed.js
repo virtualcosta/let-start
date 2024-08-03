@@ -1,3 +1,3 @@
-console.log(false == '0');
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+var arr1 = "john".split('');
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
