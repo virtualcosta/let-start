@@ -1,1 +1,1 @@
-const result = await makeHttpRequest(url);
+const isEven = (num) => num % 2 === 0;
